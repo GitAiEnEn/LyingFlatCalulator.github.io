@@ -26,15 +26,15 @@
         <form>
             <div class="mb-3">
                 <label for="totalAssets" class="form-label" data-i18n="totalAssets">总资产（W）</label>
-                <input type="text" pattern="[0-9]+([\.,][0-9]+)?" class="form-control" id="totalAssets" placeholder="100.00">
+                <input type="text" pattern="[0-9]+([\.,][0-9]+)?" class="form-control" id="totalAssets" value="100.00">
             </div>
             <div class="mb-3">
                 <label for="expectedReturn" class="form-label" data-i18n="expectedReturn">预期收益 (%)</label>
-                <input type="text" pattern="[0-9]+([\.,][0-9]+)?" class="form-control" id="expectedReturn" placeholder="3.5">
+                <input type="text" pattern="[0-9]+([\.,][0-9]+)?" class="form-control" id="expectedReturn" value="3.5">
             </div>
             <div class="mb-3">
                 <label for="annualExpense" class="form-label" data-i18n="annualExpense">首年支出(W)</label>
-                <input type="text" pattern="[0-9]+([\.,][0-9]+)?" class="form-control" id="annualExpense" placeholder="10">
+                <input type="text" pattern="[0-9]+([\.,][0-9]+)?" class="form-control" id="annualExpense" value="10">
             </div>
             <div class="mb-3">
                 <label for="annualInflation" class="form-label" data-i18n="annualInflation">预期通胀 (%)</label>
@@ -75,7 +75,7 @@
             },
             "totalAssets": {
                 "zh": "总资产（W）",
-                "en": "Total Assets (10k)"
+                "en": "Total Assets (k)"
             },
             "expectedReturn": {
                 "zh": "预期收益 (%)",
@@ -83,7 +83,7 @@
             },
             "annualExpense": {
                 "zh": "首年支出(W)",
-                "en": "Annual Expense (10k)"
+                "en": "Annual Expense (k)"
             },
             "annualInflation": {
                 "zh": "预期通胀 (%)",
